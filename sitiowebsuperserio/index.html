@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Brainrot Battle</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- PANTALLA DE INICIO -->
+    <section id="inicio" class="pantalla">
+
+        <h1>BRAINROT BATTLE</h1>
+
+        <p>
+            Solo uno podrá convertirse en
+            <strong>EL BRAINROT SUPREMO</strong>.
+        </p>
+
+        <button id="iniciar">
+            ⚔️ INICIAR TORNEO
+        </button>
+
+    </section>
+
+
+    <!-- PANTALLA DEL TORNEO -->
+    <section id="torneo" class="pantalla oculto">
+
+        <header class="encabezado">
+
+            <h2 id="ronda">
+                ROUND 1
+            </h2>
+
+            <p id="contador">
+                8 BATALLAS RESTANTES
+            </p>
+
+        </header>
+
+
+        <!-- ÁREA DE BATALLA -->
+        <main class="batalla">
+
+            <!-- BRAINROT 1 -->
+            <div class="brainrot" id="brainrot1">
+
+                <div class="imagen-container">
+                    <img
+                        id="imagen1"
+                        src=""
+                        alt="Brainrot 1"
+                    >
+                </div>
+
+                <h3 id="nombre1">
+                    Brainrot 1
+                </h3>
+
+                <p id="nivel1">
+                    🧠 Nivel de brainrot: ???
+                </p>
+
+                <button class="boton-elegir" id="elegir1">
+                    🏆 ELEGIR
+                </button>
+
+            </div>
+
+
+            <!-- VS -->
+            <div class="vs">
+                <span>VS</span>
+            </div>
+
+
+            <!-- BRAINROT 2 -->
+            <div class="brainrot" id="brainrot2">
+
+                <div class="imagen-container">
+                    <img
+                        id="imagen2"
+                        src=""
+                        alt="Brainrot 2"
+                    >
+                </div>
+
+                <h3 id="nombre2">
+                    Brainrot 2
+                </h3>
+
+                <p id="nivel2">
+                    🧠 Nivel de brainrot: ???
+                </p>
+
+                <button class="boton-elegir" id="elegir2">
+                    🏆 ELEGIR
+                </button>
+
+            </div>
+
+        </main>
+
+    </section>
+
+
+    <!-- PANTALLA DEL GANADOR -->
+    <section id="ganador" class="pantalla oculto">
+
+        <h2>👑 EL BRAINROT SUPREMO 👑</h2>
+
+        <div class="ganador-container">
+
+            <img
+                id="imagenGanador"
+                src=""
+                alt="Brainrot ganador"
+            >
+
+            <h1 id="nombreGanador">
+                Brainrot Supremo
+            </h1>
+
+            <p id="nivelGanador">
+                🧠 Nivel de brainrot: 100%
+            </p>
+
+        </div>
+
+        <div class="estadisticas">
+
+            <p>🏆 CAMPEÓN DEL TORNEO</p>
+
+            <p id="victorias">
+                ⚔️ Victorias: 4
+            </p>
+
+        </div>
+
+        <button id="reiniciar">
+            🔄 JUGAR DE NUEVO
+        </button>
+
+    </section>
+
+
+    <!-- JAVASCRIPT -->
+    <script src="script.js"></script>
+
+</body>
+</html>
